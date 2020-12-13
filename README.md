@@ -22,3 +22,10 @@ What is given is a matrix with two kind of symbols. Problem statement says that 
 The first method relies on the regulatity of patterns and traversing. First I assign "0" to elements that don't need to be counted, "1" to elements that need to be counted. Then I manipulate the matrix to generate an equivalent square matrix that need to be traversed in the "R 1 D 1" fashion. Once we have that matrix, the trace of it is the anwer.
 
 I thought to challenge a bit myself by coming up with the second method. First I assign "0" to elements that don't need to be counted, "1" to elements that need to be counted. Then the principle is to traverse the matrix up to down and left to right, applying the right modulo operator on the horizontal axis to circle the matrix correctly.
+
+## [Day 4](https://adventofcode.com/2020/day/4)
+
+Day 4 was a bit of a bummer. Main challenge was to load unformatted data into an array. From there, checking number of fields was trivial, and conditions allowed me to review a bit of Regex s*t 
+
+## [Day 5](https://adventofcode.com/2020/day/5)
+Problem was posed in an interesting way. Once I understood that decoding was direct from initial to binary to decimal, problem was trivial.
